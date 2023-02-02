@@ -1,0 +1,59 @@
+body{
+    padding: 0;
+    margin: 0;
+    background: rgb(251,63,111);
+    background: radial-gradient(circle, rgba(251,63,111,1) 0%, rgba(0,0,0,1) 100%);
+    background-size: 100%;
+    font-family: 'Kdam Thmor Pro';
+}
+h1{
+    font-family: 'Kdam Thmor Pro';
+    color: #fff;
+    text-align: center;
+}
+h2{
+    font-family: 'Kdam Thmor Pro';
+    color: rgb(208, 44, 205);
+    text-align: center;
+}
+ul{
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: row;
+}
+ul li{
+padding: 10;
+ margin-left: 60px;
+ list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    color:blueviolet;
+    position: relative;
+    left: 385px;
+}
+
+
+video {
+width: 500px;
+}
+
+audio {
+
+    width: 500px;
+    }
+p{
+    color: #fff;
+}
+@keyframes example {
+  from {background-color:rgb(4, 49, 138);}
+  to {background-color:  rgb(67, 21, 21);}
+}
+
+.menu {
+
+  height: 5%;
+  background-color: rgb(67, 21, 21);
+  animation-name: example;
+  animation-duration: 5s;
+}
